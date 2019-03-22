@@ -14,14 +14,6 @@ class OutraActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_outra)
 
-//        if (intent.action == Intent.ACTION_SEND && intent.type == "text/plain") {
-//            val mensagem = intent.getStringExtra(Intent.EXTRA_TEXT)
-//            if (mensagem != null)
-//                txtShare.setText(mensagem)
-//        } else
-//            txtShare.setText("BUCETINHA")
-
-
     BtBack.setOnClickListener {
             val intentExplicita = Intent(this, MainActivity::class.java)
             startActivity(intentExplicita)
